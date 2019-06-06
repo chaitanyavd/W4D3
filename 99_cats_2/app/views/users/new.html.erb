@@ -1,0 +1,15 @@
+<h1> IM ALIVEEEEE </h1>
+
+<form action = "<%= users_url %>" method="post">
+
+  <label> Username:
+  <input type="text" name="user[user_name]" value="<% @user.user_name %>">
+  
+  </label>
+  <br>
+  <label> Password:
+    <input type="password" name="user[password]" value="<% @user.password %>"">
+  </label>
+  <br>
+  <input type="submit" value = "MAKE USER NOW!!!! (button) :) cool cool" >
+</form>
